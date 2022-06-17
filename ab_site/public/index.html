@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alyssa Bereznak</title>
+    <meta name="description" content="Alyssa Bereznak is a journalist and podcaster with more than 10 years of experience. She writes about media, celebrity, technology, and how the internet is changing our lives.">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+    <!-- double check image path and get OK for description -->
+    <meta property="og:image" content="https://alyssabereznak.com/public/IMG/alyssa-bereznak.jpeg">
+    <meta property="og:description" content="Alyssa Bereznak is a journalist and podcaster with more than 10 years of experience. She writes about media, celebrity, technology, and how the internet is changing our lives.">
+    <meta property="og:title" content="Alyssa Bereznak, journalist and podcaster">
+
+    <link rel="stylesheet" href="public/css/styles.css">
+
+
+    <script type="text/javascript">
+      function updateState(newState) {
+        state.screenShown = newState;
+        updateUI();
+      }
+
+      function updateUI() {
+        if (state.screenShown == 0) {
+          document.getElementById("homepage").hidden = false;
+        } else {
+          document.getElementById("homepage").hidden = true;
+      }
+
+      if (state.screenShown == 1) {
+          document.getElementById("about-page").hidden = false;
+        } else {
+          document.getElementById("about-page").hidden = true;
+      }
+    </script>
+
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
+    </nav>
+
+
+    <section id="homepage" class="home">
+      <h1>Alyssa Bereznak</h1>
+      <h2>Journalist and podcaster</h2>
+    </section>
+
+    <section id="about-page" class="about">
+      About
+    </section>
+
+    <section class="work">
+
+    </section>
+
+    <section class="contact">
+
+      <div class="contact-container">
+        <p class="f3 lh-copy ma0 baskerville">
+          <a class="link black hover-bg-black  hover-white"  href="mailto:alyssabereznak@gmail.com">alyssabereznak[at]gmail.com</a>
+        </p>
+        <p class="f3 lh-copy ma0 baskerville pa1-1">
+          <a class="link black hover-bg-black hover-white" href="https://twitter.com/alyssabereznak" target="_blank">twitter</a>
+        </p>
+        <p class="f3 lh-copy ma0 baskerville">
+          <a class="link black hover-bg-black hover-white" href="https://instagram.com/alyssabereznak" target="_blank">instagram</a>
+        </p>
+      </div>
+
+    </section>
+
+
+  </body>
+</html>
